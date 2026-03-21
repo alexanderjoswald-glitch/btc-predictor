@@ -6,7 +6,7 @@ import os
 # ============ PRIVATE ACCESS ============
 # You will set this as an Environment Variable on Render.com
 # DO NOT hardcode your password here for security!
-ADMIN_PASSWORD_HASH = os.environ.get('ADMIN_PASSWORD_HASH', '$2b$12$fTAUHcytJI/01kKW2pd8p.ibnZtR1AIZuhrI2nfEzzVIQ0gUUAdGa')
+ADMIN_PASSWORD_HASH = os.environ.get('ADMIN_PASSWORD_HASH', 'Replace Me')
 SECRET_KEY = os.environ.get('SECRET_KEY', 'kalshi-btc-predictor-2024')
 
 # ============ KALSHI API ============
