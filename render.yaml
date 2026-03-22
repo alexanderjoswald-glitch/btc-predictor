@@ -3,9 +3,8 @@ services:
     name: btc-predictor
     runtime: python
     buildCommand: |
-      apt-get update
-      apt-get install -y build-essential python3-dev
       pip install --upgrade pip
+      pip install setuptools wheel
       pip install -r requirements.txt
     startCommand: gunicorn app:app
     envVars:
