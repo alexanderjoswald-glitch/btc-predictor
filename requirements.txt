@@ -1,7 +1,6 @@
 flask==2.2.3
 flask-login==0.6.2
 werkzeug==2.2.3
-pandas==1.5.3
 numpy==1.23.5
 ccxt==4.1.22
 scikit-learn==1.2.2
